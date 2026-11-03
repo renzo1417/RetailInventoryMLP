@@ -1,0 +1,17 @@
+## Visual Studio / .NET Ignore Rules
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+*.pdb
+*.exe
+*.dll
+*.log
+
+# Keep sample data and training log template in root if desired
+!RetailInventoryMLP/bin/Debug/inventory_data.csv
+!RetailInventoryMLP/bin/Debug/training_log.csv
